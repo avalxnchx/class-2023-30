@@ -6,5 +6,12 @@ editor: visual
 ---
 
 ## Quarto
+```{r}
+#| echo: false
+#| output: false
 
+library(tidyverse)
+x <- read_rds("data/ec.rds")
+
+```
 
